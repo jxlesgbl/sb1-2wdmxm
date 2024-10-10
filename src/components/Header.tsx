@@ -1,12 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Leaf } from 'lucide-react';
 
 const Header: React.FC = () => {
   return (
     <header className="bg-white p-4 flex justify-between items-center border-b border-gray-200">
       <Link to="/" className="flex items-center">
-        <Leaf className="text-green-600 w-8 h-8 mr-2" />
+        <img src="/logo_without_text.png" alt="Scallergy" className="text-green-600 w-8 h-8 mr-2" />
         <h1 className="text-xl font-semibold text-green-800">Scallergy</h1>
       </Link>
       <Link to="/profile" className="flex items-center">
@@ -15,7 +14,7 @@ const Header: React.FC = () => {
           alt="User"
           className="w-8 h-8 rounded-full"
         />
-        <span className="ml-2 text-sm font-medium">Billy Adventure</span>
+        <span className="ml-2 text-sm font-medium"></span>
       </Link>
     </header>
   );

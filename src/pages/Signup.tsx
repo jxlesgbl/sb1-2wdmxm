@@ -8,7 +8,8 @@ const Signup: React.FC = () => {
       <Link to="/" className="absolute top-4 left-4">
         <ArrowLeft className="text-green-700" />
       </Link>
-      <img src="/scallergy-logo.svg" alt="Scallergy" className="w-24 h-24 mb-8" />
+      <img src="/scallergy-logo.png
+" alt="Scallergy" className="w-24 h-24 mb-8" />
       <h1 className="text-2xl font-bold mb-8">Inscription</h1>
       <form className="w-full max-w-xs">
         <div className="mb-4">
